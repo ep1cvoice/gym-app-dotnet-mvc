@@ -1,9 +1,8 @@
 # FormaFit Gym - Gym Management System
 
-
 _Full-stack web application built with ASP.NET Core MVC and Bootstrap._
 
-> **Design inspiration:** Project’s UI is inspired by a Figma Community design by **Moch. Rizki Eko Waluyo**  
+> **Design inspiration:** Project's UI is inspired by a Figma Community design by **Moch. Rizki Eko Waluyo**  
 > https://www.figma.com/community/file/1268413829309445731  
 > All visual credit goes to the original creator.
 
@@ -37,22 +36,22 @@ _FormaFit Gym is a learning and portfolio project simulating a landing page and 
 - One active cooperation per user
 - Cancel cooperation
 
-## Tech stack
+## Tech Stack
 
 - ASP.NET Core MVC
 - Entity Framework Core
-- ASP .NET Identity
+- ASP.NET Identity
 - SQLite
 - Bootstrap 5
 - Razor Views
 - Dependency Injection
 - Design patterns (Factory, Abstract Factory, Mediator, Singleton etc.)
 
-## Roadmap
+## What's Built
 
-- Bootstrap created responsive UI
+- Responsive UI with Bootstrap
 - Attractive professional landing page
-- Authentication 
+- Authentication
 - Profile dashboard with sidebar navigation
 - Classes booking
 - Membership passes
@@ -60,13 +59,11 @@ _FormaFit Gym is a learning and portfolio project simulating a landing page and 
 - Notifications (Factory Method)
 - UI polishing
 
-![Homepage](wwwroot/img/readme/homepage2.png)
+## Why This Project?
 
-## Why this project?
+This project is developed as part of the Advanced Programming course at a higher education institution.
 
-**This project is developed as part of the Advanced Programming course at a higher education institution.**
-
-**Also, building this projects makes sense for me in a way to:**
+Building it also made sense as a way to:
 - learn ASP.NET Core full-stack development
 - understand clean architecture and patterns
 - build a real-world app for portfolio
@@ -75,13 +72,11 @@ _FormaFit Gym is a learning and portfolio project simulating a landing page and 
 
 This project is an ASP.NET Core MVC application and must be run locally.
 
-
 **Prerequisites**
 - Windows OS
 - .NET SDK 8.0 or newer (SDK 10.x is fully compatible with net8.0 projects)
 - Visual Studio 2022 (recommended) or any IDE supporting .NET
 - Entity Framework Core CLI tools
-
 
 __To verify installed .NET version:__
 > dotnet --version
@@ -93,14 +88,12 @@ __1. Clone the repository and run the project__
 > dotnet ef database update  
 > dotnet run  
 
-
 Alternatively, open the project in Visual Studio and press Run.
 
 **The application will be available at:**
 > http://localhost:5254
 
-
-__2. Create User Account__
+__2. Create a User Account__
 
 - The project uses ASP.NET Identity.
 - Open the application in a browser
@@ -110,15 +103,17 @@ __2. Create User Account__
 - No default or seeded users are provided.
 
 __3. Have fun!__
-- Explore the UI of the landing page
+- Explore the landing page
 - Try to register and log in
 - Try to buy a pass
 - Sign up for the newsletter on the home page
-- Sign in for classes training
-- Manage your reservations in profile
+- Book a group class
+- Manage your reservations in the profile
 - Start a collaboration with a personal trainer (choose with or without diet!)
-- Any feedback and critics are apreciated, please, share them if you'd like to. Thanks!
+- Any feedback and criticism is appreciated — please share if you'd like to. Thanks!
 
-![Homepage](wwwroot/img/readme/profile.png)
+![Homepage](wwwroot/img/readme/homepage2.png)
 
-![Homepage](wwwroot/img/readme/profile2.png)
+![Profile dashboard](wwwroot/img/readme/profile.png)
+
+![Profile view](wwwroot/img/readme/profile2.png)
